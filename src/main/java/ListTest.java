@@ -10,7 +10,7 @@ public class ListTest {
         gracze.add("Ania");
         gracze.add("Robert");
 
-        System.out.println("Gracz numer 1: " + gracze.get(0));
+        System.out.println("pl.sonitolbito.Gracz numer 1: " + gracze.get(0));
         System.out.println("Ilosc graczy: " + gracze.size());
 
         gracze.remove("Kacper");
@@ -19,7 +19,7 @@ public class ListTest {
 
         System.out.println("Lista wszystkich graczy:");
         for (int i = 0; i < gracze.size(); i++) {
-            System.out.println("Gracz na pozycji " + i + ": " + gracze.get(i));
+            System.out.println("pl.sonitolbito.Gracz na pozycji " + i + ": " + gracze.get(i));
         }
     }
 }

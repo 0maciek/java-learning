@@ -14,9 +14,9 @@ public class PlayerProfile {
         System.out.println("Kills: " + kills);
 
         if (level >= 10) {
-            System.out.println("Gracz ma wysoki poziom.");
+            System.out.println("pl.sonitolbito.Gracz ma wysoki poziom.");
         } else {
-            System.out.println("Gracz ma niski poziom.");
+            System.out.println("pl.sonitolbito.Gracz ma niski poziom.");
         }
 
         if (level >= 10 && coins >= 100.0) {
